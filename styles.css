@@ -1,0 +1,335 @@
+a{
+  padding-left: 4%;
+}
+
+img {
+  display: inline-block;
+}
+
+
+div {
+padding-left: 8%;
+}
+
+h1 {
+  padding-top: -10px;
+  padding-bottom: -10px;
+  animation: pageLoad 1.25s;
+
+}
+
+h2{
+  font-family: 'Muli', sans-serif;
+  font-size: 2.5em;
+
+}
+
+
+li{
+  float:left;
+  width: 33%;
+  padding-top: 5%;
+  font-family: 'Cabin', sans-serif;
+  list-style-type: none;
+  color: orange;
+}
+
+.bottomLine {
+  animation: pageLoad2 1.5s;
+}
+
+.bg-img {
+  position: absolute;
+  opacity: 0.1;
+  height: 800px;
+  margin-top: -350px;
+  margin-left: -600px;
+
+}
+
+.boxLogo {
+  padding-top: 4%;
+}
+
+.container {
+  padding-left: 0px;
+}
+
+.dev {
+  color: orange;
+}
+
+.footer {
+  position: relative;
+  top: 275px;
+  left:55%;
+  color: black;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  
+}
+
+
+.HTML {
+  height: 100px;
+  width:100px;
+}
+
+.JS {
+  height: 100px;
+  width:100px;
+}
+
+.git {
+  height: 80px;
+  width:150px;
+}
+
+.icon {
+  position: relative;
+  color: gray;
+  left: 125px;
+  animation: socialsLoad 1.5s;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+
+.insta:hover{
+  color: crimson;
+}
+
+.github:hover {
+  color: black;
+}
+
+.twitter:hover {
+  color: cyan;
+}
+
+.icons {
+  position: relative;
+  top: 110px;
+  animation: socialsLoad 1.5s;
+}
+
+.intro {
+  font-size: 28px;
+  font-family: 'Muli', sans-serif;
+  padding-top: 90px;
+}
+
+.royce {
+  position: absolute;
+  height: 600px;
+  padding: 0 50px;
+  bottom: 15.5rem;
+  border-radius: 15%;
+}
+
+.royce1 {
+  position: relative;
+  height: 600px;
+  padding: 0 50px;
+  border-radius: 15%;
+}
+
+.photoContainer {
+  position: relative;
+  padding-left: 0px;
+}
+
+.photos {
+  margin-top: 10%;
+  position: relative;
+  right: 4%;
+
+}
+
+.personalInfo {
+  column-count: 2;
+  padding-top: 10%;
+}
+
+.personal {
+  position: relative;
+  width: 500px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  left: 2%;
+  top: 5px;
+  color: black;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 4px;
+  padding: 2% 2%;
+}
+
+.personal-bg {
+  /* background-color: grey; */
+}
+
+.personal2 {
+  position: absolute;
+  width: 500px;
+  left:53%;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.3em;
+  /* color: gray; */
+  bottom:2%;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 4px;
+  padding: 2% 2%;
+}
+
+.skillDescription {
+  font-family: 'Cabin', sans-serif;
+}
+
+.skillsList {
+  padding-top: 5%;
+}
+
+.contact {
+  position: relative;
+  top: 200px;
+}
+
+.email {
+  color: black;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  position: relative;
+  right: 4%;
+  font-size: 1.5em;
+  top: 20px;
+  padding-bottom: 10%;
+}
+
+/* For future royce, when screen gets smaller we should use a media query to change
+ width of text to 100% and set photo position to static so they all fall in line.*/
+ @media (max-width: 1145px) and (min-width: 1076px){
+  .royce {
+    position: static
+    width:500;
+    height: 550;
+    bottom: 7.25rem;
+    padding-left: 10%;
+  }
+
+  .royce1 {
+    position: static;
+    width:500;
+    height: 550;
+    padding: 0;
+  }
+
+
+  .personal {
+    position: static;
+    display: block;
+    width: 100%;
+
+  }
+
+  .personal2 {
+    position: static;
+    width: 100%;
+
+  }
+ }
+
+
+ @media (max-width: 1075px ){
+  .royce {
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .royce1 {
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .personal {
+    width:100%;
+    position: static;
+    display: block;
+  }
+
+  .personal2 {
+    width:100%;
+    position: static;
+  }
+ }
+
+ @media (max-width: 770px ){
+
+   .footer{
+     left:35%;
+   }
+ }
+
+
+@media (max-width: 550px ){
+  .git {
+    position: relative;
+    right: 30px;
+  }
+
+  .footer{
+    left:35%;
+  }
+}
+
+
+@keyframes pageLoad {
+
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pageLoad2 {
+
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes socialsLoad {
+
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0)
+
+  }
+
+}
