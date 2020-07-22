@@ -1,0 +1,249 @@
+
+h1 {
+  padding-top: -10px;
+  padding-bottom: -10px;
+  animation: pageLoad 1.25s;
+
+}
+
+h2{
+  font-family: 'Muli', sans-serif;
+  font-size: 2.5em;
+
+}
+
+h3, p {
+font-family: 'Cabin', sans-serif;
+font-size: 1.2em
+}
+
+
+li{
+  float:left;
+  width: 33%;
+  font-family: 'Cabin', sans-serif;
+  list-style-type: none;
+  color: orange;
+  padding-top: 50px;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.bottomLine {
+  animation: pageLoad2 1.5s;
+}
+
+.bg-img {
+  position: absolute;
+  opacity: 0.1;
+  height: 800px;
+  margin-top: -350px;
+  margin-left: -600px;
+
+}
+
+.boxLogo {
+  padding-top: 4%;
+  padding-left: 4%;
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.dev {
+  color: orange;
+}
+
+.footer {
+  /* position: relative;
+  top: 275px;
+  left:55%; */
+  font-size: 0.7em;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+
+}
+
+
+.HTML {
+  height: 100px;
+  width:100px;
+}
+
+.JS {
+  height: 100px;
+  width:100px;
+}
+
+.git {
+  height: 80px;
+  width:150px;
+}
+
+.icon {
+  position: relative;
+  color: gray;
+  left: 125px;
+  animation: socialsLoad 1.5s;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+
+.insta:hover{
+  color: crimson;
+}
+
+.github:hover {
+  color: black;
+}
+
+.twitter:hover {
+  color: cyan;
+}
+
+.icons {
+  position: relative;
+  top: 110px;
+  animation: socialsLoad 1.5s;
+}
+
+.intro {
+  font-size: 28px;
+  font-family: 'Muli', sans-serif;
+  padding-top: 90px;
+}
+
+
+.royce, .royce2 {
+  height: 300px;
+  width: 300px;
+}
+
+
+.skillsList {
+  /* margin: 100px auto; */
+  margin-left: 50px;
+}
+
+
+.skillDescription {
+  font-family: 'Cabin', sans-serif;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 125px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.royce {
+  /*width: 100px;
+  height: 100px;
+  */
+  /* width: 25%; */
+  float: left;
+
+  margin-right: 40px;
+}
+
+
+.royce2 {
+  /* width: 25%; */
+  /* height: 25%; */
+  float: right;
+  margin-left: 40px;
+
+}
+
+.contact {
+  margin: 150px 50px;
+}
+
+.email {
+  color: black;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+
+
+/* For future royce, when screen gets smaller we should use a media query to change
+ width of text to 100% and set photo position to static so they all fall in line.*/
+ @media (max-width: 1145px) and (min-width: 1076px){
+ }
+
+
+ @media (max-width: 1075px ){
+ }
+
+ @media (max-width: 770px ){
+
+   .footer{
+     left:35%;
+   }
+ }
+
+
+@media (max-width: 550px ){
+  .git {
+    position: relative;
+    right: 30px;
+  }
+
+  .footer{
+    left:35%;
+  }
+}
+
+
+@keyframes pageLoad {
+
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pageLoad2 {
+
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes socialsLoad {
+
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0)
+
+  }
+
+}
