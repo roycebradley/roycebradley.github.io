@@ -173,16 +173,32 @@ ul {
 }
 
 
+@media (max-width: 815px ){
+  .skill-row{
+    text-align: center;
+  }
+
+  .royce {
+    float: none;
+    margin-right: 0px;
+  }
 
 
-/* For future royce, when screen gets smaller we should use a media query to change
- width of text to 100% and set photo position to static so they all fall in line.*/
- @media (max-width: 1145px) and (min-width: 1076px){
- }
+  .royce2 {
+    float: none;
+    margin-left: 0px;
+  }
 
+  .skillsList{
+    text-align: center;
+  }
 
- @media (max-width: 1075px ){
- }
+  ul{
+    padding-left: 0px;
+  }
+
+}
+
 
  @media (max-width: 770px ){
 
