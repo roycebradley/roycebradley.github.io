@@ -130,6 +130,7 @@ ul {
 .skillsList {
   /* margin: 100px auto; */
   margin-left: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -172,6 +173,100 @@ ul {
   font-family: 'Cabin', sans-serif;
 }
 
+.work{
+  text-align: center;
+  /* margin-left: 50px; */
+  margin-bottom: 80px;
+}
+
+.work .workTitle {
+  margin-left: 50px;
+}
+
+
+.workTitle {
+  text-align: left;
+}
+
+
+.workCard1 {
+  display: inline-block;
+  margin-top: 100px;
+  height: 75%;
+  width: 35%;
+  border: 1px solid;
+  border-spacing: 20px;
+  padding: 20px;
+  margin-right: 25px;
+}
+
+.workCard1 img {
+  width: 192.5px;
+  height: 192.5px;
+}
+
+.workCard1 h2 {
+  white-space: nowrap;
+  line-height: 8px;
+}
+
+.workCard1 p {
+  display: inline-block;
+  width: 85%;
+  height: 250px;
+  text-align: left;
+  color: grey;
+
+}
+
+.workCard1 a {
+  display: block;
+  color: black;
+  cursor: pointer;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.workCard2 {
+  display: inline-block;
+  margin-top: 100px;
+  height: 75%;
+  width: 35%;
+  border: 1px solid;
+  border-spacing: 20px;
+  padding: 20px;
+  margin-left: 25px;
+}
+
+.workCard2 h2 {
+  white-space: nowrap;
+  line-height: 8px;
+}
+
+.workCard2 img {
+  width: 192.5px;
+  height: 192.5px;
+}
+
+.workCard2 p {
+  display: inline-block;
+  width: 85%;
+  height: 250px;
+  text-align: left;
+  color: grey;
+
+}
+
+.workCard2 a {
+  display: block;
+  color: black;
+  cursor: pointer;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
 
 @media (max-width: 815px ){
   .skill-row{
@@ -193,6 +288,8 @@ ul {
     text-align: center;
   }
 
+
+
   ul{
     padding-left: 0px;
   }
@@ -200,7 +297,24 @@ ul {
 }
 
 
- @media (max-width: 770px ){
+ @media (max-width: 1040px ){
+
+   .workCard1, .workCard2 {
+     width: 80%;
+     margin: 30px 0;
+   }
+
+   .workCard1 p {
+     height: auto;
+
+   }
+
+   .workCard2 p {
+     height: auto;
+
+   }
+
+
 
    .footer{
      left:35%;
@@ -214,9 +328,12 @@ ul {
     right: 30px;
   }
 
+
+
   .footer{
     left:35%;
   }
+
 }
 
 
