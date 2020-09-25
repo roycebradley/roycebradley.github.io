@@ -51,7 +51,7 @@ ul {
 }
 
 .container {
-  margin: 0 10%;
+  margin: 0 10% 10% 10%;
 }
 
 .dev {
@@ -127,6 +127,7 @@ ul {
 }
 
 
+
 .skillsList {
   /* margin: 100px auto; */
   margin-left: 50px;
@@ -161,6 +162,7 @@ ul {
   /* height: 25%; */
   float: right;
   margin-left: 40px;
+  
 
 }
 
@@ -174,13 +176,18 @@ ul {
 }
 
 .work{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-gap: 2em;
+  justify-items: center;
   text-align: center;
-  /* margin-left: 50px; */
   margin-bottom: 80px;
+  margin-top: 80px;
+  padding: 20px;
 }
 
-.work .workTitle {
-  margin-left: 50px;
+.workTitle {
+  margin-left: 50px
 }
 
 
@@ -191,13 +198,13 @@ ul {
 
 .workCard1 {
   display: inline-block;
-  margin-top: 100px;
+  /* margin-top: 100px;
   height: 75%;
   width: 35%;
-  border: 1px solid;
-  border-spacing: 20px;
+  margin-right: 25px; */
   padding: 20px;
-  margin-right: 25px;
+  border: 1px solid;
+  border-spacing: 15px;
 }
 
 .workCard1 img {
@@ -230,13 +237,14 @@ ul {
 
 .workCard2 {
   display: inline-block;
-  margin-top: 100px;
+  /* margin-top: 100px;
   height: 75%;
   width: 35%;
+  padding: 20px;
+  margin-left: 25px; */
+  padding: 20px;
   border: 1px solid;
   border-spacing: 20px;
-  padding: 20px;
-  margin-left: 25px;
 }
 
 .workCard2 h2 {
@@ -299,7 +307,7 @@ ul {
 
  @media (max-width: 1040px ){
 
-   .workCard1, .workCard2 {
+   /* .workCard1, .workCard2 {
      width: 80%;
      margin: 30px 0;
    }
@@ -312,7 +320,7 @@ ul {
    .workCard2 p {
      height: auto;
 
-   }
+   } */
 
 
 
