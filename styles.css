@@ -162,7 +162,7 @@ ul {
   /* height: 25%; */
   float: right;
   margin-left: 40px;
-  
+
 
 }
 
@@ -220,7 +220,7 @@ ul {
 .workCard1 p {
   display: inline-block;
   width: 85%;
-  height: 250px;
+  height: 200px;
   text-align: left;
   color: grey;
 
@@ -260,7 +260,7 @@ ul {
 .workCard2 p {
   display: inline-block;
   width: 85%;
-  height: 250px;
+  height: 200px;
   text-align: left;
   color: grey;
 
