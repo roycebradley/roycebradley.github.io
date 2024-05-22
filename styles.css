@@ -79,11 +79,13 @@ ul {
 .JS {
   height: 100px;
   width:100px;
+  text-align: center;
 }
 
 .git {
   height: 80px;
   width:150px;
+  text-align: center;
 }
 
 .icon {
